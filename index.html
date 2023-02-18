@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE-edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b4a085ccfb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I am<span> Ritvik </span><br> Singh a CSE student</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/user.png">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-titl">About me</h1>
+            <p>
+                I'm a 20 year old tech lover and enthusiast who's especially passionate about Al/ML, Data Science due to the vast potential they possess in the upcoming future.
+ I love working towards new innovations and am constantly on the lookout for real world problem statements to solve using my acquired skills and to further hone them further.
+I've had the opportunity to lead various technical as well as cultural teams in school and college, which has given me insights into leadership, team work and work ethics.
+The languages I'm fluent in are Java, C ,Python, Dart.
+I'm also highly passionate about basketball as I am also an athletes and my hobby is making sketch art in my leisure time and I also write blogs as passion.</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('certifications')">Certification</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing UI/UX for various application and wepages </li>
+                    <li><span>Web Development</span><br>Experienced in Designing websites</li>
+                    <li><span>App development</span><br>Experienced in designing UI of apps using flutter</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>HEALTH AND ILLNESS REMEDY APPLICATION</span><br>This application asks the user for specific requirements of
+                        illness and then it’s suggests the needed aid and specialists
+                        regarding the health issue</li>
+                    <li><span>NFT APPLICATION UI</span><br>A front end user interface made by flutter easy to interact and
+                        creative</li>
+                    <li><span>WORKING ON WINE PRICE PREDICTOR USING ML</span><br>The model will predict the wine price as per the
+                        latest trends and quality norms of the wine.
+                        </li>
+                    <li><span>WORKING ON FACE RECOGNITION SYSTEM USING ML
+                    </span><br>The system will recognize a persons identity from their
+                    facial landmarks and will give various information on
+                    that person.
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2020, SPRING FIELDS COLLEGE</span><br>SECONDARY SCHOOL</li>
+                    <li><span>2020-2024, AMITY UNIVERSITY, NOIDA</span><br>BACHELOR OF TECHNOLOGY</li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="certifications">
+                <ul>
+                    <li><span>2022, AWS Academy Cloud Foundations - Amazon
+                        Web Services (AWS)</span><br></li>
+                        <a href="https://www.credly.com/badges/e84788ab-16d6-4973-acf6-2a87c0cb7643/linked_in_profile">Learn more</a>
+                    <li><span>2022, CCNA: Introduction to Networks - Cisco.</span><br></li>
+                    <a href="https://www.credly.com/badges/94ad5db4-d4a7-4ab8-87c2-ee86572b976b/linked_in_profile">Learn more</a>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-----------------services-------------------------------------------------------------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-titl">Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>With a keen eye for detail and a focus on delivering exceptional results, our new designer brings a
+                     fresh perspective and a wealth of experience to every project. Whether you need a simple website or
+                      a complex e-commerce platform, our designer has the skills and expertise to bring your vision to 
+                      lif</p>
+                    <a href="https://github.com/Ritviksingh-cyber">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>A passionate indivisual eager about creating engaging and intuitive user interfaces that provide a
+                     seamless user experience.While  to staying up-to-date with the latest design trends and technologies,
+                      and uses this knowledge to create interfaces that are not only visually stunning, but also optimized
+                       for performance and accessibility. </p>
+                    <a href="https://github.com/Ritviksingh-cyber">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Dedicated to creating innovative, user-friendly, and visually appealing mobile applications.
+                    uses the latest design tools and techniques to create sleek and modern interfaces that are 
+                    optimized for performance and user engagement. Whether you need a simple app for a small business or 
+                    a complex platform for a large corporation, i have the skills and expertise to deliver outstanding results.
+                </p>
+                    <a href="https://github.com/Ritviksingh-cyber">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!------------------------portfolio------------------------------->
+
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-titl">My Work</h1>
+    <div class="work-list">
+      
+        <div class="work">
+            
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Health and illness remedy app</h3>
+                <p>The App tells people around the world all the required information in various health issues.</p>
+                <a href="https://github.com/Ritviksingh-cyber/Health_and_wellness_appUI"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>NFT app UI</h3>
+                <p>The App gives users a first hand experience of smooth transitions of the app developed in flutter.</p>
+                <a href="https://github.com/Ritviksingh-cyber/NFT_app_UI"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Habit tracker app</h3>
+                <p>The App helps you to keep the track of your habits.</p>
+                <a href="https://github.com/Ritviksingh-cyber/Habit_trackerUI"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+       <!------ <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>NFT app UI</h3>
+                <p>The App gives users a first hand experience of smooth transitions of the app developed in flutter.</p>
+                <a href="https://github.com/Ritviksingh-cyber/NFT_app_UI"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>----->
+       
+    
+    </div>
+<a href="#" class="btn">See more</a>
+</div>
+</div>
+
+
+<!----------------------------------contact------------------------------------------------>
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+           
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>singhritvik57@gmail.com</p>
+            <p><i class="fa-sharp fa-solid fa-phone-volume"></i> 8979554849</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/ritvik-singh-94581a204"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+       <!------ <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="Submit" class="btn btn2">Submit</button>
+            </form>
+        </div>----->
+    </div>
+</div>
+<div class="copyright">
+    <p><i class="fa-solid fa-copyright"></i> Copyright  Made by Ritvik Singh</p>
+</div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+
+    }
+</script>
+</body>
+</html>
